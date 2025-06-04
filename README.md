@@ -8,7 +8,7 @@ Uma API inteligente e leve que permite buscas clínicas rápidas com auxílio da
 
 A **API Busca Rápida Diagnóstico Clínico** foi criada com o objetivo de fornecer uma ferramenta ágil, moderna e funcional para pesquisar informações clínicas com base em **relatos de pacientes**, **sintomas**, **diagnósticos**, **causas**, **tratamentos** e **medicamentos**.
 
-A API já vem integrada com mais de **7.272 registros clínicos** reais e prontos para serem consultados.
+A API já vem integrada com mais de **808 registros clínicos** reais e prontos para serem consultados.
 
 ---
 
@@ -26,7 +26,7 @@ A API já vem integrada com mais de **7.272 registros clínicos** reais e pronto
 
 ```bash
 📁 /dados
-   └── dados.js        # Arquivo com os 7.272 registros clínicos
+   └── dados.js        # Arquivo com os 808 registros clínicos
 📁 /servico
    └── servico.js      # Lógica das buscas, incluindo fuzzy search
 📁 /public
@@ -109,7 +109,7 @@ Public Web Service
 ## 💡 Diferenciais
 > Busca fuzzy altamente precisa com Fuse.js
 
-> Mais de 7 mil registros clínicos
+> Mais de 808 registros clínicos
 
 > API pronta para frontend externo
 
