@@ -43,6 +43,7 @@ app.get('/buscadiagnostico', (req, res) => {
     } 
 
     const resultado = pesquisa ? buscaTotal() : buscaTotal();
+    const resultado = buscaTotal();
     if(resultado.length > 0){
        return res.status(200).json(resultado);
     }
