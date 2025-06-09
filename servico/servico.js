@@ -1,15 +1,15 @@
 import Fuse from 'fuse.js';
 import {dados as dados} from '../dados/dados.js';
 
-export function buscaTotal() {
-    return dados;
-};
-
 const fuse = new Fuse (dados, {
     includeScore: true,
     keys: ['relatoPaciente', 'diagnostico', 'sintomas', 'causas', 'tratamento', 'medicamento'],
     threshold: 0.4,
-})
+});
+
+export function buscaTotal() {
+    return dados;
+};
 
 export function buscaCompleta(pesquisa){
     const resultado = fuse.search(pesquisa);

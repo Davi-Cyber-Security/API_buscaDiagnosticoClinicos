@@ -109,7 +109,7 @@ Public Web Service
 ## 💡 Diferenciais
 > Busca fuzzy altamente precisa com Fuse.js
 
-> Mais de 808 registros clínicos
+> Mais de 2500 registros clínicos
 
 > API pronta para frontend externo
 
@@ -126,9 +126,10 @@ Public Web Service
 Este projeto está licenciado sob os termos da licença **MIT**.
 
 Você pode usá-lo, copiá-lo, modificá-lo, redistribuí-lo e até usá-lo em projetos comerciais, **desde que mantenha o aviso de copyright original**.
+```
 
 Consulte o arquivo [LICENSE](./LICENSE) para mais detalhes.
-```
+
 
 ## 👨‍💻 Autor
 Desenvolvido por @Davi-Cyber-Security 💻
